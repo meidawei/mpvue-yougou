@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/category/main",
+    "pages/cart/main",
+    "pages/my/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff2d4a",
+    "navigationBarTitleText": "优购商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#ff2d4a",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "首页",
+      "iconPath":"/static/icon/icon_home@3x.png",
+      "selectedIconPath":"/static/icon/icon_home_active@3x.png"
+    }, {
+      "pagePath": "pages/category/main",
+      "text": "分类",
+      "iconPath":"/static/icon/icon_category@3x.png",
+      "selectedIconPath":"/static/icon/icon_category_active@3x.png"
+    }, {
+      "pagePath": "pages/cart/main",
+      "text": "购物车",
+      "iconPath":"/static/icon/icon_cart@3x.png",
+      "selectedIconPath":"/static/icon/icon_cart_active@3x.png"
+    }, {
+      "pagePath": "pages/my/main",
+      "text": "我的",
+      "iconPath":"/static/icon/icon_me@3x.png",
+      "selectedIconPath":"/static/icon/icon_me_active@3x.png"
+    }]
+  }
+}
