@@ -2,6 +2,8 @@
 
 > A Mpvue project
 
+> 使用myvue框架开发优购商城小程序
+
 ## Build Setup
 
 ``` bash
